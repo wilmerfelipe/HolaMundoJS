@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Mi Hola mundo en JS</title>
+    </head>
+    <body>
+        <p>Queremos saludarte, necesitamos saber tu nombre.</p>
+        <br>
+        <form id="formulario">
+            Escribe tu nombre aqui:<input type="text" id="nombre"><br><br>
+            <input type="button" value="Saludar" onclick="mifuncion()">
+    </form>
+        <h1>Mi Hola mundo en JS</h1>
+            <script>
+                function mifuncion() {
+                    var name = document.getElementById("nombre").value;
+                    alert("Hola Mundo" + name + "Como estas?")
+                }
+                
+                
+            </script>
+    </body>
+</html>
